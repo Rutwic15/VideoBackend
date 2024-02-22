@@ -4,9 +4,16 @@
   "description": "A complete backend of an video streaming website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev":"nodemon src/index.js"
   },
-  "keywords": ["Javascript","Backend","HighLevel"],
+  "keywords": [
+    "Javascript",
+    "Backend",
+    "HighLevel"
+  ],
   "author": "Achanti Rutwick",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
 }
